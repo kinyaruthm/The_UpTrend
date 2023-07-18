@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" href="script.js"></script>
+    
+</head>
+<body>
+    <h1>Welcome to UpTrend</h1>
+    <h2>Shop Til' You Drop</h2>
+
+    <div class="container">
+        <form id="login-form">
+            <h2>Login</h2>
+            <input type="text" placeholder="Username" name="username" required>
+            <input type="password" placeholder="Password" name="password" required>
+
+            <button type="submit" onclick="login()">Login</button>
+        </form>
+        <p>If not yet registered! Create account here? <a href="registration.html">Register here</a>.</p>
+
+        <script type="text/javascript">
+            function login(){
+             window.location.href="dashboard.html";
+            }
+
+        </script>
+
+    </div>
+</body>
+</html>
